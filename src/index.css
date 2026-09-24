@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-deep: #200060;
+  --color-brand-purple: #401090;
+  --color-brand-violet: #7030C0;
+  --color-brand-magenta: #F050C0;
+  --color-brand-cyan: #90E0F0;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-display: 'Outfit', 'Plus Jakarta Sans', sans-serif;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    color: #1e293b;
+    background-color: #fafafc;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    letter-spacing: -0.02em;
+  }
+}
+
+/* Custom Elementor-friendly section classes and clean utility helpers */
+.glass-nav-scrolled {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 4px 20px -2px rgba(32, 0, 96, 0.08);
+}
+
+.brand-gradient {
+  background: linear-gradient(135deg, #200060 0%, #401090 50%, #7030C0 100%);
+}
+
+.brand-gradient-hover {
+  background: linear-gradient(135deg, #401090 0%, #7030C0 100%);
+}
+
+.brand-subtle-glow {
+  box-shadow: 0 10px 30px -10px rgba(112, 48, 192, 0.25);
+}
+

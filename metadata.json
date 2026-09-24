@@ -1,0 +1,6 @@
+{
+  "name": "Kimz Spotless Cleaning LLC",
+  "description": "Premium, modern homepage for Kimz Spotless Cleaning LLC in Portsmouth, VA. Offering 24/7 residential and commercial cleaning, deep cleaning, move-in/out, and maid services.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
